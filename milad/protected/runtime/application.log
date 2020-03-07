@@ -460,3 +460,11 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/blog/milad/index.php/api/posts
 ---
+2020/03/07 20:01:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in E:\xamppN\htdocs\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xamppN\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 E:\xamppN\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xamppN\htdocs\blog\milad\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/milad/index.php/gii
+---

@@ -14,6 +14,12 @@ return array(
         'application.models.*',
         'application.components.*',
     ),
+    'modules' => array(
+        'gii' => array(
+            'class' => 'system.gii.GiiModule',
+            'password' => '123',
+        ),
+    ),
     'defaultController' => 'post',
     // application components
     'components' => array(
